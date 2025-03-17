@@ -1,0 +1,104 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+# Airflow
+airflow/logs/
+airflow/*.pid
+airflow/*.err
+airflow/*.out
+airflow/.airflowignore
+airflow/config/
+
+# Docker
+.docker/
+
+# AWS
+.aws/
+emr_cluster_config.json
+aws-credentials.json
+
+# Data and output
+data/*
+!data/taxi_schema.json
+output/
+*.parquet
+*.csv
+*.json
+!requirements.txt
+!docker-compose.yaml
+!package.json
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-workspace
+*.sublime-project
+.project
+.pydevproject
+.settings/
+
+# Logs
+logs/
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Spark
+metastore_db/
+spark-warehouse/
+derby.log
+.ipynb_checkpoints/
+*.ipynb
+
+# Documentation builds
+docs/_build/
+docs/_static/
+docs/_templates/
+docs/architecture.png
+
+# Test results
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Misc
+.git/
+.github/
+.gitattributes
+tmp/
+.tmp/ 
