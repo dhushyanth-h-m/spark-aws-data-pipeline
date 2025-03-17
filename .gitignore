@@ -85,7 +85,6 @@ derby.log
 docs/_build/
 docs/_static/
 docs/_templates/
-docs/architecture.png
 
 # Test results
 .coverage
