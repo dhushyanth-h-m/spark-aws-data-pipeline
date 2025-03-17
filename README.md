@@ -60,7 +60,7 @@ spark-aws-data-pipeline/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/spark-aws-data-pipeline.git
+git clone https://github.com/dhushyanth-h-m/spark-aws-data-pipeline
 cd spark-aws-data-pipeline
 ```
 
